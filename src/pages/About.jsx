@@ -1,4 +1,4 @@
-import me from "../assets/me/shruti.jpeg"
+import me from "../assets/me/me.jpeg"
 import happy from "../assets/smiley/love-eyes.png"
 import cherry from "../assets/me/cherry.png"
 import bunny from "../assets/me/_.gif"
@@ -16,8 +16,8 @@ export default function About() {
             <img src={bunny}  className="absolute h-24  bottom-5 -right-2 "></img>
             </div>
             <div className="h-full w-[250px] sm:w-[300px] text-sm sm:text-lg">
-                I’m a developer with a designer’s eye and a soft spot for vintage UI. After sharpening my skills at companies like Ford, I now freelance across the stack, creating performant, accessible and expressive digital experiences. Whether it’s a minimalist dashboard or a pixel-art portfolio like this one, I bring thoughtful detail, clean architecture, and a bit of creative rebellion to every project.
-
+            I’m an AI-focused computer science student who loves building practical, impactful tech. From machine learning and full-stack apps to blockchain-based systems, I enjoy turning complex ideas into clean, efficient solutions. Whether it’s an intelligent prototype, a hackathon build, or a pixel-art portfolio like this one, I bring curiosity, clarity, and thoughtful execution to every project.
+            
             </div>
         </div>
 </>

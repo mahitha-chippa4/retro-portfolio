@@ -15,13 +15,13 @@ export default function Connect() {
                  <img src={duck} className="h-24 w-24  sm:h-44 sm:w-44 border-t-2 border-l-2 border-gray-200 border-b-2 border-r-2 border-b-gray-500 border-r-gray-500 bg-white shadow-md"></img>
                  
                  <div className="flex flex-col p-4 text-xs sm:text-lg border-t-2 border-l-2 border-gray-200 border-b-2 border-r-2 border-b-gray-500 border-r-gray-500 bg-white shadow-md">
-                 Yo! You’ve reached the Shruti Hotline. ☎️  <br></br>
-                 Got a project idea, some pixel art love, or just wanna nerd out about code? <br></br>
+                 Yo! You’ve reached the Mahitha Hotline. ☎️  <br></br>
+                 Got a project idea, some pixel art love, hackathon collabs, or just wanna geek out about AI, ML, or code? <br></br>
                  Drop a line - I’m all ears.<br></br>
                  <div className="flex flex-row gap-2 mt-2 items-end">
-                    <a href="mailto:shruti128770@gmail.com" target="_blank"><img src={MailIcon} className= "hover:scale-110 w-8 h-8 cursor-pointer" ></img></a>
-                    <a href="https://github.com/shrutitaylor/" target="_blank"><img src={Github} className= "hover:scale-110 w-8 h-8  cursor-pointer" ></img></a>
-                    <a href="https://www.linkedin.com/in/shruti-ms/" target="_blank"><img src={LinkedIn} className= "hover:scale-110 w-8 h-8 cursor-pointer" ></img></a>
+                    <a href="mailto:mahitha.chippa05@gmail.com" target="_blank"><img src={MailIcon} className= "hover:scale-110 w-8 h-8 cursor-pointer" ></img></a>
+                    <a href="https://github.com/mahitha-chippa4" target="_blank"><img src={Github} className= "hover:scale-110 w-8 h-8  cursor-pointer" ></img></a>
+                    <a href="https://www.linkedin.com/in/mahitha-chippa-782304309/" target="_blank"><img src={LinkedIn} className= "hover:scale-110 w-8 h-8 cursor-pointer" ></img></a>
                 </div>
                  </div> 
                  

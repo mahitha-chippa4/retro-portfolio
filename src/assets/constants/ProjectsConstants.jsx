@@ -1,58 +1,58 @@
-import BoseImg from "../projects/bose.png";
-import MoodifyImg from "../projects/moodify-website.png";
-import IOLabsImg from "../projects/iolabs.png";
-import PortfolioImg from "../projects/portfolio.png";
-import SplineImg from "../projects/spine-website.png";
+import NomosImg from "../projects/nomos2.jpg";
+import DeepfakeImg from "../projects/deepfake.png";
+import TrainImg from "../projects/train2.png";
+import PaymentImg from "../projects/finall.png";
+import PrescriptionImg from "../projects/prescription.png";
 
 export const projects = [
-    {
-      id: 1,
-      title: 'Headphones Product Page',
-      description:
-        'Crafted an immersive 3D product experience for Bose wireless headphones. Users can scroll through dynamic camera transitions, exploring the product from multiple angles in an interactive and engaging format.',
-      techStack: ["React.js", "GSAP", "3D Model"],
-      img: BoseImg,
-      colorClass: 'indigo-400',
-      link: 'https://shrutitaylor.github.io/earphones-v1/',
-    },
-    {
-      id: 2,
-      title: 'IO Labs Business Website',
-      description:
-        'Designed and launched a business website for a Melbourne-based tech repair shop. The site includes service highlights, customer testimonials, responsive layout, and animated transitions for a polished, user-friendly experience.',
-      techStack: ['React', 'Tailwind', 'Framer Motion'],
-      img: IOLabsImg,
-      colorClass: 'stone-400',
-      link: 'https://iolabs.au/',
-    },
-    {
-      id: 3,
-      title: 'Portfolio Website',
-      description:
-        'A personal portfolio website to showcase my work, design thinking, and skills. Built with smooth animations, responsive layout, and a clean aesthetic to reflect both creativity and professionalism.',
-      techStack: ['React', 'Tailwind','Framer Motion'],
-      img: PortfolioImg,
-      colorClass: 'amber-400',
-      link: 'https://shrutitaylor.github.io/ProtfolioWebsiteShruti/',
-    },
-    {
-      id: 4,
-      title: 'Moodify – Fun Project',
-      description:
-        'A music streaming app made for fun, that curates playlists based on user moods. Built with UI animations and expressive design, Moodify offers an emotional and visually engaging listening experience.',
-      techStack: ['React', 'CSS Animations'],
-      img: MoodifyImg,
-      colorClass: 'orange-400',
-      link: 'https://shrutitaylor.github.io/Moodify-v1.0/',
-    },
-    {
-      id: 5,
-      title: '3D Portfolio – Fun Project',
-      description:
-        'A lightweight 3D portfolio experience using React and Vite, integrated with Spline for real-time 3D modeling and interactions. This project explores immersive visuals and smooth transitions.',
-      techStack: ['React', 'Vite', 'Spline'],
-      img: SplineImg,
-      colorClass: 'orange-400',
-      link: 'https://shrutitaylor.github.io/spline-app/',
-    },
-  ];
+  {
+    id: 1,
+    title: 'Nomos | AI for Indian Law',
+    description:
+      'Crafted an intelligent AI-powered legal assistance experience for Indian law. Users can interact through natural language queries, receiving accurate, structured, and context-aware legal insights across multiple domains in a seamless and user-friendly interface.',
+    techStack: ["React.js", "Tailwind CSS", "Python", "Gemini API ", "Agent based AI"],
+    img: NomosImg,
+    colorClass: 'indigo-400',
+    link: 'https://nomosbot.netlify.app/',
+  },
+  {
+    id: 2,
+    title: 'Railway Control System',
+    description:
+      'Built a live, tick-based railway corridor simulation with real-time visualization, enabling users to monitor train movements, inject disruptions, and adjust operational parameters through an interactive web interface.',
+    techStack: ['FastAPI', 'React', 'OR-Tools'],
+    img: TrainImg,
+    colorClass: 'stone-400',
+    link: 'https://github.com/mahitha-chippa4/SIH',
+  },
+  {
+    id: 3,
+    title: 'Deepfake Detection',
+    description:
+      'Built a recruitment-security pipeline detecting deepfakes, spoofing, impersonation, and external assistance with 92% accuracy',
+    techStack: ['HAR, YOLO', 'XGBoost', 'OpenCV'],
+    img: DeepfakeImg,
+    colorClass: 'amber-400',
+    link: 'https://github.com/mahitha-chippa4/DeepfakeDetection',
+  },
+  {
+    id: 4,
+    title: 'Payment Vision',
+    description:
+      'A responsive payment analytics dashboard with real-time insights and interactive visualizations for tracking transactions and financial trends.',
+    techStack: ['React', 'Redux Toolkit', 'Tailwind CSS', 'D3.js', 'Recharts'],
+    img: PaymentImg,
+    colorClass: 'orange-400',
+    link: 'https://github.com/mahitha-chippa4/paymentvision_dashboard',
+  },
+  {
+    id: 5,
+    title: 'Prescription Verification System',
+    description:
+      'A blockchain-based prescription verification system using smart contracts and encrypted QR codes to prevent fraud, enabling secure creation, verification, and one-time use of prescriptions in healthcare',
+    techStack: ['React', 'Solidity', 'Ethereum', 'QR Code Verification'],
+    img: PrescriptionImg,
+    colorClass: 'orange-400',
+    link: 'https://github.com/mahitha-chippa4/Prescription-verification-system',
+  },
+];

@@ -11,7 +11,10 @@ import ArtIcon from "../assets/desktopIcons/art.png";
 import LinkedIn from "../assets/desktopIcons/linkedin-pixel.png";
 import Github from "../assets/desktopIcons/github-pixel.png";
 import MailIcon from "../assets/desktopIcons/mail.png";
-export default function Taskbar({ onAppClick, onThemeChange, currentTheme }) {
+import SoundOn from "../assets/buttons/soundon.png";
+import SoundNo from "../assets/buttons/soundno.png";
+
+export default function Taskbar({ onAppClick, onThemeChange, currentTheme, audioState }) {
 
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => setShowMenu((prev) => !prev);
@@ -37,7 +40,7 @@ export default function Taskbar({ onAppClick, onThemeChange, currentTheme }) {
             }}
             className="px-3 py-2 hover:bg-blue-600 border-b-2 border-gray-300 hover:text-white cursor-pointer"
           >
-          <img src={ProjectsIcon} alt="Projects" className="inline-block w-4 h-4 mr-2" /> Projects.exe
+            <img src={ProjectsIcon} alt="Projects" className="inline-block w-4 h-4 mr-2" /> Projects.exe
           </div>
           <div
             onClick={() => {
@@ -73,7 +76,7 @@ export default function Taskbar({ onAppClick, onThemeChange, currentTheme }) {
             }}
             className="px-3 py-2 hover:bg-blue-600 border-b-2 border-gray-300 hover:text-white cursor-pointer"
           >
-          <img src={MailIcon} alt="mAIL" className="inline-block w-4 h-4 mr-2" /> Contact.exe
+            <img src={MailIcon} alt="mAIL" className="inline-block w-4 h-4 mr-2" /> Contact.exe
           </div>
         </div>
       )}
@@ -86,15 +89,27 @@ export default function Taskbar({ onAppClick, onThemeChange, currentTheme }) {
         >
           Start
         </button>
-        
-        <div className="ml-auto flex leading-sm flex-row px-4 text-sm gap-2 sm:text-2xl">
-           <a href="mailto:shruti128770@gmail.com" target="_blank"><img src={MailIcon} className= "hover:scale-110 w-4 h-4 sm:w-8 sm:h-8 cursor-pointer" ></img></a>
-          <a href="https://github.com/shrutitaylor/" target="_blank"><img src={Github} className= "hover:scale-110 w-4 h-4 sm:w-8 sm:h-8  cursor-pointer"></img></a>
-          <a href="https://www.linkedin.com/in/shruti-ms/" target="_blank"><img src={LinkedIn} className= "hover:scale-110 w-4 h-4 sm:w-8 sm:h-8 cursor-pointer" ></img></a>
-         {currentTheme === "morning" ? 
-          ( <img src={morning} className= "hover:scale-110 w-4 h-4 sm:w-8 sm:h-8  cursor-pointer" onClick={() => onThemeChange("night")}></img>):
-           (<img src={night} className="hover:scale-110  w-4 h-4 sm:w-8 sm:h-8 cursor-pointer" onClick={() => onThemeChange("morning")}></img>)
-           }
+
+        <div className="ml-auto flex leading-sm flex-row px-4 text-sm gap-2 sm:text-2xl items-center">
+          {/* Sound Controls */}
+          {audioState && (
+            <div className="flex items-center gap-1 sm:gap-2 mr-2 border-r-2 border-gray-400 pr-2">
+              <img
+                src={audioState.isPlaying ? SoundOn : SoundNo}
+                className="w-4 h-4 sm:w-8 sm:h-8 cursor-pointer hover:scale-110 active:scale-95"
+                onClick={audioState.toggleAudio}
+                title={audioState.isPlaying ? "Mute" : "Unmute"}
+              />
+            </div>
+          )}
+
+          <a href="mailto:mahitha.chippa05@gmail.com" target="_blank"><img src={MailIcon} className="hover:scale-110 w-4 h-4 sm:w-8 sm:h-8 cursor-pointer" ></img></a>
+          <a href="https://github.com/mahitha-chippa4" target="_blank"><img src={Github} className="hover:scale-110 w-4 h-4 sm:w-8 sm:h-8  cursor-pointer"></img></a>
+          <a href="https://www.linkedin.com/in/mahitha-chippa-782304309/" target="_blank"><img src={LinkedIn} className="hover:scale-110 w-4 h-4 sm:w-8 sm:h-8 cursor-pointer" ></img></a>
+          {currentTheme === "morning" ?
+            (<img src={morning} className="hover:scale-110 w-4 h-4 sm:w-8 sm:h-8  cursor-pointer" onClick={() => onThemeChange("night")}></img>) :
+            (<img src={night} className="hover:scale-110  w-4 h-4 sm:w-8 sm:h-8 cursor-pointer" onClick={() => onThemeChange("morning")}></img>)
+          }
           <img src={clock} className="sm:w-10 sm:h-9  w-4 h-4"></img>
           <div>{new Date().toLocaleTimeString()}</div>
         </div>

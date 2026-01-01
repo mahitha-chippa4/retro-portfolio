@@ -1,4 +1,3 @@
-// src/components/Window.jsx
 import { motion } from "framer-motion";
 import { X } from "lucide-react"; // optional close icon
 import { useEffect, useRef, useState } from "react";
