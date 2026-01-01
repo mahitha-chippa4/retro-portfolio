@@ -67,6 +67,8 @@ npm run dev
 🔗 Local app will be live at:
 http://localhost:5173
 
+
+
 🌐 Live Demo
 ✨ 👉 https://retro-portfolio-livid-xi.vercel.app/
 🎉 Credits & Inspiration
@@ -85,10 +87,3 @@ This portfolio doesn’t just showcase my work — it is my work.
 
 
 ---
-
-### ✅ After pasting, run these commands
-
-```bash
-git add README.md
-git commit -m "Finalize README with proper headings and links"
-git push
