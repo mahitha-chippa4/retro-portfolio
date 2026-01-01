@@ -1,80 +1,96 @@
-# 🖥️ Shruti's Retro OS Portfolio
+🖥️ Mahitha’s Retro OS Portfolio
 
 A pixel-perfect, retro-inspired web portfolio built with React, Tailwind CSS, and Framer Motion — bringing the charm of vintage operating systems to life in the browser.
 
-## 🕹️ Overview
+🕹️ Overview
 
-This portfolio mimics the experience of using an old-school OS: draggable desktop icons, bootloader screens, pixel fonts, glitch transitions, and windowed apps — all powered by modern web technologies.
+This portfolio recreates the experience of using an old-school operating system: draggable desktop icons, pixel UI, windowed apps, playful animations, and a nostalgic taskbar — all powered by modern web technologies.
 
-You'll find sections like:
+Think Windows 95 aesthetics × modern frontend engineering.
 
-- 🧑‍💻 About.exe — a window into who I am
-- 💼 Projects.exe — selected works & experiments
-- 🎨 ArtStudio.exe — a creative corner where I paint after hours
-- 📬 Contact.exe — ways to connect
-- 🐰 BootLoader — a pixel rabbit welcomes you on load
+Desktop apps you’ll find:
 
----
+🧑‍💻 About.exe — who I am and what I do
 
-## 🔧 Built With
+💼 Projects.exe — selected projects and experiments
 
-- ⚛️ [React](https://reactjs.org/) — Core framework
-- 🎨 [Tailwind CSS](https://tailwindcss.com/) — Styling
-- 🌀 [Framer Motion](https://www.framer.com/motion/) — Animations
-- 🖱️ [react-draggable](https://www.npmjs.com/package/react-draggable) — Window dragging
-- 🖼️ Custom pixel fonts, assets, and icons
-- 🖼️ Cursor + retro sounds for immersive OS feel
+🏆 Achievements.exe — hackathons, wins, and milestones
 
----
+📚 Education.exe — academic journey
 
-## 🧑‍🎨 Features
+🛠️ Skills.exe — technical stack & tools
 
-- Custom bootloader animation (featuring a hopping rabbit 🐇)
-- Clickable desktop icons that open draggable windows
-- Start Menu with application launcher
-- Retro taskbar, sticky notes, and pixel-perfect borders
-- Custom cursor and hover sound effects
-- Framer Motion zoom-ins for timeline storytelling
-- Pixel-art UI mimicking Windows 95/98 aesthetics
+🎮 Game.exe — a fun interactive element
 
----
+📬 LetsConnect.exe — ways to reach me
 
-## 🚀 Getting Started
+A friendly pixel rabbit 🐰 welcomes you during the boot experience.
 
-1. **Clone the repo**
+🔧 Built With
 
-```bash
-git clone https://github.com/shrutitaylor/retro-os-portfolio.git
-cd retro-os-portfolio
-```
+⚛️ React — component-based UI
 
-2. **Install dependencies**
+🎨 Tailwind CSS — utility-first styling
 
-```bash
+🌀 Framer Motion — smooth animations & transitions
+
+🖱️ react-draggable — draggable windows & icons
+
+🖼️ Custom pixel assets, icons, and fonts
+
+🔊 Retro cursor sounds & UI interactions
+
+🧑‍🎨 Features
+
+Retro OS–style desktop with clickable .exe apps
+
+Draggable, windowed UI components
+
+Pixel-art design inspired by classic operating systems
+
+Custom boot experience with a pixel rabbit 🐰
+
+Animated taskbar, start menu, and desktop icons
+
+Framer Motion–powered transitions and interactions
+
+Achievements section highlighting hackathon participation & wins
+
+🚀 Getting Started (Local Setup)
+
+Clone the repository
+
+git clone https://github.com/mahitha-chippa4/retro-portfolio.git
+cd retro-portfolio
+
+
+Install dependencies
+
 npm install
-```
 
-3. **Start the dev server**
 
-```bash
+Run the development server
+
 npm run dev
-```
-
-## 🎉 Credits & Inspiration
-
-- Classic Windows 95/98 UI inspiration
-- Pixel font - ppmondwest
-- Icons from Flaticon
-- Framer Motion & Tailwind Docs
-
----
-
-## 🪄 Fun Fact
-
-> This portfolio doesn’t just showcase my work — it **is** my work.
-
----
-
-## 🪄 Live - https://helloshruti.vercel.app/
 
 
+The app will be live at http://localhost:5173
+
+🌐 Live Demo
+
+🔗 https://retro-portfolio-livid-xi.vercel.app/
+
+🎉 Credits & Inspiration
+
+Classic Windows 95/98 UI inspiration
+
+Pixel-art aesthetics & retro design culture
+
+Framer Motion & Tailwind CSS documentation
+
+Custom and curated pixel assets
+
+🪄 Fun Fact
+
+This portfolio doesn’t just showcase my work —
+it is my work.
